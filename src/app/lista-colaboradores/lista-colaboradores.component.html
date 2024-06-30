@@ -1,0 +1,17 @@
+<div class="lista-colaboradores">
+  <h2>Lista de Colaboradores</h2>
+  <a routerLink="/adicionar" class="btn btn-primary">Adicionar Colaborador</a>
+
+  <ul class="colaboradores">
+    <li *ngFor="let colaborador of colaboradores" class="colaborador-item">
+      <div class="colaborador-info">
+        <span class="colaborador-nome">{{ colaborador.nome }}</span>
+        <span class="colaborador-cargo">{{ colaborador.cargo }}</span>
+      </div>
+      <div class="colaborador-acoes">
+        <button (click)="excluirColaborador(colaborador.id)" class="btn btn-danger">Excluir</button>
+        <a [routerLink]="['/editar', colaborador.id]" class="btn btn-secondary">Editar</a>
+      </div>
+    </li>
+  </ul>
+</div>
