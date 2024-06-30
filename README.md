@@ -1,27 +1,18 @@
-# GerenciamentoColaboradores
+# Pojeto Final Angular - Afrocodigos
+# Gerenciamento de Colaboradores
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5.
+Este é um projeto de painel de gerenciamento de colaboradores desenvolvido com Angular. Ele permite adicionar, editar, listar e excluir colaboradores de uma forma simples e intuitiva.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Listagem de Colaboradores**: Exibe uma lista de colaboradores cadastrados com seus respectivos nomes e cargos.
+- **Adição de Colaboradores**: Formulário para adicionar novos colaboradores ao sistema.
+- **Edição de Colaboradores**: Permite a edição das informações dos colaboradores diretamente na interface.
+- **Exclusão de Colaboradores**: Funcionalidade para excluir colaboradores da lista.
 
-## Code scaffolding
+## Tecnologias Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Angular
+- Angular CLI
+- SCSS para estilização
+- JSON Server (para simulação de API)

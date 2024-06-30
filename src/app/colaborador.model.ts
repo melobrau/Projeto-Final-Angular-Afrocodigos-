@@ -1,6 +1,5 @@
 export interface Colaborador {
-    id: string;
-    nome: string;
-    cargo: string;
-  }
-  
+  id: string;
+  nome: string;
+  cargo: string;
+}

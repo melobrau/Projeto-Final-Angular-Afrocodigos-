@@ -15,6 +15,10 @@ export class ColaboradorService {
     return this.http.get<Colaborador[]>(this.apiUrl);
   }
 
+  getColaborador(id: string): Observable<Colaborador> {
+    return this.http.get<Colaborador>(`${this.apiUrl}/${id}`);
+  }
+
   adicionarColaborador(colaborador: Colaborador): Observable<Colaborador> {
     return this.http.post<Colaborador>(this.apiUrl, colaborador);
   }
